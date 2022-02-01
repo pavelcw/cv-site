@@ -1,0 +1,5 @@
+yum install -y npm
+npm install -g resume-cli
+/usr/local/bin/resume validate
+npm install jsonresume-theme-kendall
+/usr/local/bin/resume export index.html --theme kendall
